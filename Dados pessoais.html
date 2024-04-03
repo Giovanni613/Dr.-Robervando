@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://www.google.com/search?" method="post">
+        <fieldset>
+            <legend>Dados pessoias</legend>
+
+            <label>nome:</label>
+            <input type="text" nome="txtnome" maxlength="80" autofocus required placeholder="digite seu nome">
+            <br> 
+
+            <label for="email">E-mail</label>
+            <input type="email" nome="txtemail" requiredid="email">
+            <br>
+            
+            <label>senha:</label>
+            <input type="password" nome="txtemail" required>
+            <br>
+            
+            <label>Estado civil</label><br>
+            <input type="radio" nome="estc" value="s">Solteiro(a)<br>
+            <input type="radio" nome="estc" value="c">casado(a)<br>
+            <input type="radio" nome="estc" value="v">viúvo(a)<br>
+            
+            <label> filme</label><br>
+            <input type="checkbox" name="filme" value="terror">terror<br>
+            <input type="checkbox" name="filme" value="comedia">comedia<br>
+            <input type="checkbox" name="filme" value="açao">ação<br>
+
+            <label>escolha a ling preferida</label><br>
+            <section name="ling">
+                <option volume="" hidden>selecione uma opc</option>
+                <option volume="python">Python</option>
+                <option volume="java">java</option>
+                <option volume="c-sharp">C#</option>
+            </section>
+            <br>
+
+            <label>Mensagem:</label><br>
+            <textarea rows="5" cols="48" name="msg"></textarea>
+            <br>
+
+            <button>Enviar</button>
+
+
+            </fieldset>
+    </form>
+</body>
+</html>
